@@ -1,0 +1,26 @@
+[package]
+name = "learn-rust"
+version = "0.1.0"
+authors = ["Rocketman <759094438@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glfw = "0.41.0"
+gl = "0.14.0"
+rand = "0.8.3"
+colored = "2.0.0"
+
+[[bin]]
+name = "02"
+path = "src/02.rs"
+[[bin]]
+name = "03"
+path = "src/03.rs"
+[[bin]]
+name = "04"
+path = "src/04.rs"
+[[bin]]
+name = "05"
+path = "src/05.rs"
